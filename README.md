@@ -4,7 +4,7 @@
 
 There are 2 node.js apps in this repo, docs-api and projects-api, both can be started from within their directories with
 
-`npm run-script run`
+`npm install && npm run-script run`
 
 The projects api relies upon the docs-api for data. When both apps are up and running a request to the projects api
 will return information about a LaTeX project. The following curl will work locally when they are both running
