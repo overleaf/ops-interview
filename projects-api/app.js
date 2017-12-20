@@ -6,7 +6,7 @@ const request = require("request")
 
 app.get('/project/1', (req, res) => {
 	opts = {
-		uri:"http://localhost:"+settings.docs_api_port+"/project/1/docs",
+		uri:settings.docs_host+"/project/1/docs",
 		method:"GET"
 	}
 	console.log("getting request for projects, asking docs api on ", opts.uri)

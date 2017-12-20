@@ -1,4 +1,4 @@
-module.exports = {
+	module.exports = {
 	port:"5000",
-	docs_api_port:"5001"
+	docs_host:"http://localhost:5001"
 }
