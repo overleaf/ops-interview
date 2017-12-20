@@ -11,7 +11,7 @@ will return information about a LaTeX project. The following curl will work loca
 
 `curl localhost:5000/project/1`
 
-The ports are configured via a settings.js file in each project. This can be modified, or replaced as you see fit.
+The ports are configured via a settings.js file in each project. This file can be modified, or replaced as you see fit.
 
 
 ## The task
